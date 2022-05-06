@@ -1,6 +1,6 @@
 const initialState = ['topinfo','bottominfo','Head','Body', 'Foot']
 
-const taskreducer= (state=initialState, action) => {
+const reducer= (state=initialState, action) => {
   
 
   switch (action.type) {
@@ -12,4 +12,4 @@ const taskreducer= (state=initialState, action) => {
   }
 }
 
-export default taskreducer;
+export default reducer;
