@@ -1,6 +1,6 @@
 const initialState = ['topinfo','bottominfo','Head','Body', 'Foot']
 
-const reducer= (action,state=initialState) => {
+const reducer= (action,_state=initialState) => {
   
 
   switch (action.type) {
