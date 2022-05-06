@@ -20,11 +20,11 @@ function Rightside({  addNewTask }) {
 }
 
 const mapStateToProps = (state) => ({
-  appState: state,
+  appState: state
 })
 
 const mapDispatchToProps = (dispatch) => ({
-  addNewTask: (task) => dispatch(addTask(task)),
+  addNewTask: (task) => dispatch(addTask(task))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Rightside)
