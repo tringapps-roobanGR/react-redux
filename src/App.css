@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  height: 150px;
+  background-color: #61dafb;
+}
+.sidebar{
+  float: left;
+  width: 20%;
+  height: 500px;
+  display: flex;
+  background-color: #282c34;
+  flex-direction: row;
+
+}
+.right{
+  float: right;
+  width: 80%;
+  height: 500px;
+  
+  background-color: blue;
+}
+.footer{
+  clear: both;
+  background-color: goldenrod;
+  height: 110px;
+}
